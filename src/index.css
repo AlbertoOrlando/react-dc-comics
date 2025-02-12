@@ -7,14 +7,14 @@
 
 
 header {
-    height: 110px;
+    height: 120px;
 }
 
 .container_Header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 5px 50px; */
+    padding: 10px 80px;
     background-color: #fff;
 }
 
@@ -35,10 +35,34 @@ header {
 .lista_Header a:hover {
     color: blue;
     border-bottom: blue 3px solid;
-    padding-bottom: 40px;
+    padding-bottom: 42px;
 }
 
-main {
+.container_Top {
     background-color: #000;
     color: #fff;
+    padding: 30px 80px;
+}
+
+.container_down {
+    background-color: blue;
+    color: #fff;
+    padding: 30px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+}
+
+.card img {
+    max-width: 20%;
+    height: auto;
+}
+
+.card a {
+    color: #fff;
+    text-decoration: none;
 }
