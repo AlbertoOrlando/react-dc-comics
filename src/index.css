@@ -4,3 +4,41 @@
     box-sizing: border-box;
     font-family: "open sans", sans-serif;
 }
+
+
+header {
+    height: 110px;
+}
+
+.container_Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 5px 50px; */
+    background-color: #fff;
+}
+
+.lista_Header ul {
+    display: flex;
+}
+
+.lista_Header li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.lista_Header a {
+    text-decoration: none;
+    color: #000;
+}
+
+.lista_Header a:hover {
+    color: blue;
+    border-bottom: blue 3px solid;
+    padding-bottom: 40px;
+}
+
+main {
+    background-color: #000;
+    color: #fff;
+}
