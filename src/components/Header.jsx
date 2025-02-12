@@ -2,7 +2,7 @@ export default function Header() {
     return (
         <header>
             <div className="container_Header">
-                <div><img src="../../public/dc-logo.png" alt="" /></div>
+                <div><img src="../dc-logo.png" alt="" /></div>
                 <div className="lista_Header">
                     <ul>
                         <li><a href="#">CHARACTERS</a></li>
