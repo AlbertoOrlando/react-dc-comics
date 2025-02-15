@@ -1,4 +1,6 @@
-export default function Footer() {
+import Navbar from "./Navbar"
+
+export default function Footer(props) {
     return (
         <footer>
             <div className="container_Ftop">
@@ -22,19 +24,7 @@ export default function Footer() {
                     </div>
                     <div className="info">
                         <h2>DC</h2>
-                        <ul>
-                            <li><a href="#">Terms Of Use</a></li>
-                            <li><a href="#">Privacy policy (New)</a></li>
-                            <li><a href="#">Ad Choices</a></li>
-                            <li><a href="#">Advertising</a></li>
-                            <li><a href="#">Jobs</a></li>
-                            <li><a href="#">Subscriptions</a></li>
-                            <li><a href="#">Talent Workshop</a></li>
-                            <li><a href="#">CPSC Certificates</a></li>
-                            <li><a href="#">Ratings</a></li>
-                            <li><a href="#">Shop Help</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                        </ul>
+                        <Navbar link={props.link} />
                     </div>
                     <div className="info">
                         <h2>SITES</h2>

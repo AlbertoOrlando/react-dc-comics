@@ -59,19 +59,28 @@ header {
     background-color: #000;
     color: #fff;
     padding: 30px 80px;
-    height: 180px;
     display: flex;
-    justify-content: start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
     align-items: center;
+}
+
+.cardProduct {
+    width: 14%;
+}
+
+.cardProduct img {
+    max-width: 100%;
 }
 
 .container_down {
     background-color: #0282f9;
     color: #fff;
-    padding: 30px 120px;
+    padding: 1% 7%;
     display: flex;
-    justify-content: center;
-    column-gap: 180px;
+    justify-content: space-around;
+    column-gap: 6%;
     z-index: 8000;
     position: relative;
 }
@@ -82,7 +91,7 @@ header {
 }
 
 .card img {
-    max-width: 35px;
+    max-width: 30%;
     height: auto;
 }
 
@@ -90,7 +99,7 @@ header {
     color: #fff;
     text-decoration: none;
     font-size: 10px;
-    width: 150px;
+    width: 100%;
     margin-left: 15px;
 }
 
