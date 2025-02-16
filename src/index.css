@@ -20,7 +20,7 @@ header {
 }
 
 .container_Header div img {
-    max-width: 80px;
+    max-width: 70px;
 }
 
 .lista_Header {
@@ -30,15 +30,18 @@ header {
 .lista_Header ul {
     display: flex;
     height: 100%;
+    width: 30%;
+    padding-right: 80px;
 }
 
 .lista_Header li {
     list-style: none;
-    margin: 0 10px;
+    margin-right: 10%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-right: 1%;
 }
 
 .lista_Header li:hover {
@@ -58,7 +61,7 @@ header {
 .container_Top {
     background-color: #000;
     color: #fff;
-    padding: 30px 80px;
+    padding: 4% 10%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
